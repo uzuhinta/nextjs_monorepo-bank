@@ -35,25 +35,25 @@ export const MortgageCalculator = () => {
         label="Home price"
         type="number"
         value={homePrice}
-        onChange={(e) => setHomePrice(e.target.value)}
+        onChange={(e) => setHomePrice(+e.target.value)}
       />
       <TextField
         label="Down payment"
         type="number"
         value={downPayment}
-        onChange={(e) => setDownPayment(e.target.value)}
+        onChange={(e) => setDownPayment(+e.target.value)}
       />
       <TextField
         label="Interest rate"
         type="number"
         value={interestRate}
-        onChange={(e) => setInterestRate(e.target.value)}
+        onChange={(e) => setInterestRate(+e.target.value)}
       />
       <TextField
         label="Loan term (years)"
         type="number"
         value={loanTerm}
-        onChange={(e) => setLoanTerm(e.target.value)}
+        onChange={(e) => setLoanTerm(+e.target.value)}
       />
       <br />
       <br />

@@ -1,6 +1,6 @@
 import { calculateMortgage } from '@banking-web-apps/mortgage-lib';
 import { NextRequest, NextResponse } from 'next/server';
-export async function GET(request) {
+export async function GET(request: NextRequest) {
   const { homePrice, downPayment, interestRate, loanTerm, currency } =
     Object.fromEntries(request.nextUrl.searchParams);
   if (!homePrice || !downPayment || !interestRate || !loanTerm || !currency) {
