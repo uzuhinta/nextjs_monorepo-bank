@@ -1,0 +1,9 @@
+{
+  "name": "bank-b-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/bank-b-app",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project bank-b-app --web",
+  "targets": {}
+}
